@@ -1,0 +1,22 @@
+docker images
+
+variables
+---------
+acrname=wgacr6
+acrrepo=$acrname.azurecr.io
+imagename=ds
+tag=v1
+
+fullimage=$acrname/$imagename:$tag
+
+echo $fullimage
+-------------
+
+docker build -t $fullimage .
+
+docker tag {image_id} $fullimage
+
+pwd=
+docker login -u $acrname -p $pwd $acrrepo
+
+docker push $fullimage
