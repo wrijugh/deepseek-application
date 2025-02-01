@@ -1,0 +1,3 @@
+DEPLOYMENT_ENDPOINT="https://abc.eastus2.models.ai.azure.com"
+DEPLOYMENT_NAME="DeepSeek-R1-WG"
+DEPLOYMENT_TOKEN=""
