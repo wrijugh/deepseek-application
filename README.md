@@ -1,4 +1,7 @@
-# Developing Application using DeepSeek-R1 with Azure AI Foundry
+# Developing Application using DeepSeek-R1 with Azure AI Foundry / GitHub Models
+
+## Sample App (GitHub Model)
+Add your token then run https://deepseek-gh.graysmoke-57a7fb2e.swedencentral.azurecontainerapps.io/
 
 ### DeepSeek-R1 based application written in Python for demo
 
